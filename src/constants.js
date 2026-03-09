@@ -44,3 +44,4 @@ exports.THRESHOLDS = {
 exports.CHARACTER_LIMIT = 50000;
 exports.USE_MOCK_APIS = process.env.USE_MOCK_APIS !== "false"; // default true for dev
 //# sourceMappingURL=constants.js.map
+//Add more constants here

@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "chmod +x node_modules/.bin/tsc && tsc",
-    "start_old": "node dist/index.js",
     "start": "cross-env TRANSPORT=http USE_MOCK_APIS=true node dist/index.js",
     "dev": "ts-node src/index.ts",
     "http": "TRANSPORT=http node dist/index.js",

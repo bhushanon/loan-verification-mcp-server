@@ -4,7 +4,7 @@
   "description": "MCP server for commercial loan document verification, KYC, fraud detection, and GST intelligence",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "chmod +x node_modules/.bin/tsc && tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "http": "TRANSPORT=http node dist/index.js",

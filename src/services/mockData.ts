@@ -4,7 +4,16 @@ import { now } from "./apiClient.js";
 // These simulate realistic responses. Replace with real API calls via USE_MOCK_APIS=false
 
 export const mockResponses: Record<string, unknown> = {
-
+  "pan_verify_ABCDE1234F__": {
+    pan: "ABCDE1234F",
+    valid_format: true,
+    name_on_pan: "RAJESH KUMAR SHARMA",
+    pan_type: "individual",
+    dedup_status: "clean",
+    watchlist_flags: [],
+    validated_at: now(),
+  },
+  
   // ── PAN Verification ─────────────────────────────────────────────────────
   "pan_verify_ABCDE1234F": {
     pan: "ABCDE1234F",

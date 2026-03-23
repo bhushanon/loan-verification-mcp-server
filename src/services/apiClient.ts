@@ -11,6 +11,7 @@ export function createApiClient(baseURL: string, apiKey: string): AxiosInstance 
       "Content-Type": "application/json",
       
       "X-API-Key": apiKey,
+      
     },
   });
 }

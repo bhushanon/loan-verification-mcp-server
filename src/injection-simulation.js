@@ -5,7 +5,7 @@ const router = express.Router();
 // SQL injection vulnerability
 router.get('/user', async (req, res) => {
   const id = req.query.id;
-  const user = await db.query('SELECT * FROM users WHERE id = ' + id);
+  const user = await db.query('SELECT id, name FROM users WHERE id = ' + id);
   res.json(user);
 });
 

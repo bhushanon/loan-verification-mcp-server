@@ -9,6 +9,7 @@ export function createApiClient(baseURL: string, apiKey: string): AxiosInstance 
     timeout: 15000,
     headers: {
       "Content-Type": "application/json",
+      
       "X-API-Key": apiKey,
     },
   });

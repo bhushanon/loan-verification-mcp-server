@@ -10,7 +10,7 @@ router.get('/user', async (req, res) => {
 });
 
 // Hardcoded secret
-const API_KEY = "sk-prod-abc123supersecret";
+const API_KEY = "sk-prod-abc123supersec-ret";
 const another_key= "sk-prod-abc123supersecret";
 
 // Weak hash

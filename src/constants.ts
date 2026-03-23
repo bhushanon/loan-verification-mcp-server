@@ -6,6 +6,7 @@ export const API_ENDPOINTS = {
   // UIDAI Aadhaar OTP / face match  
   AADHAAR_VERIFY: process.env.AADHAAR_VERIFY_URL || "https://mock.api.local/aadhaar/verify",
   AADHAAR_FACE_MATCH: process.env.AADHAAR_FACE_URL || "https://mock.api.local/aadhaar/face-match",
+  
 
   // GST portal API
   GST_VERIFY: process.env.GST_VERIFY_URL || "https://mock.api.local/gst/verify",

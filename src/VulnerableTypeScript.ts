@@ -12,7 +12,7 @@ app.get("/user", (req, res) => {
     const username = req.query.username as string;
 
     // ❌ SQL Injection
-    const query = `SELECT * FROM users WHERE username = '${username}'`;
+    const query = `SELECT Id, Name, Password FROM users WHERE username = '${username}'`;
 
     db.all(query, [], (err, rows) => {
         if (err) {

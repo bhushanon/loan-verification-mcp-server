@@ -6,7 +6,7 @@ import javax.servlet.http.*;
 public class VulnerableServlet extends HttpServlet {
 
     // ⚠️ Hardcoded credentials (Sensitive Data Exposure)
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/test2";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/test23";
     private static final String USER = "root";
     private static final String PASS = "password123";
 
